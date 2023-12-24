@@ -6,3 +6,6 @@
 
 ;; relative line numbers
 (setq display-line-numbers-type 'relative)
+
+(add-to-list 'default-frame-alist '(width . 120))  ; （可选）设定启动图形界面时的初始 Frame 宽度（字符数）
+(add-to-list 'default-frame-alist '(height . 32)) ; （可选）设定启动图形界面时的初始 Frame 高度（字符数）
