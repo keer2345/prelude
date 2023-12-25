@@ -14,3 +14,7 @@
 	- [从零搭建Emacs个人知识库](https://www.bilibili.com/video/BV1Tc411s7Tu)
 	- [LaTeX+Emacs教程](https://www.bilibili.com/video/BV17W411k7w2)
 	- [Latex+Emacs从零开始](https://www.bilibili.com/video/BV1kb41137Z4/)
+
+## Package
+- [use-package](https://github.com/jwiegley/use-package)
+	- *[Note](notes/20231225001.md)*

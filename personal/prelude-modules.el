@@ -41,6 +41,9 @@
 
 ;;; General productivity tools
 
+;; personal
+(require 'personal-editor)
+
 
 (provide 'prelude-modules)
 ;;; prelude-modules.el ends here
