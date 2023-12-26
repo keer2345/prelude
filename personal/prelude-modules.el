@@ -42,7 +42,8 @@
 ;;; General productivity tools
 
 ;; personal
-(require 'personal-editor)
+(require 'personal-common-ui)
+(require 'personal-common-editor)
 
 
 (provide 'prelude-modules)
