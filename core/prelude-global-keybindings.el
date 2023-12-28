@@ -108,9 +108,9 @@
 (global-set-key (kbd "M-g e") 'avy-goto-word-0)
 
 ;; additional avy keybindings
-(global-set-key (kbd "s-,") 'avy-goto-char)
-(global-set-key (kbd "s-.") 'avy-goto-word-or-subword-1)
-(global-set-key (kbd "C-c v") 'avy-goto-word-or-subword-1)
+;; (global-set-key (kbd "s-,") 'avy-goto-char)
+;; (global-set-key (kbd "s-.") 'avy-goto-word-or-subword-1)
+;; (global-set-key (kbd "C-c v") 'avy-goto-word-or-subword-1)
 
 ;; improved window navigation with ace-window
 (global-set-key (kbd "s-w") 'ace-window)

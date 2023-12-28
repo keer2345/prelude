@@ -179,7 +179,19 @@
 ;; flyspell-mode does spell-checking on the fly as you type
 (require 'flyspell)
 (setq ispell-program-name "aspell" ; use aspell instead of ispell
-      ispell-extra-args '("--sug-mode=ultra"))
+      ispell-extra-args '("--sug-mode=ultra")
+      ;; ispell-extra-args '("--lang=en_US")
+      )
+
+;; To solve this problem:
+;; --------------------------------------------------------------
+;; Error enabling Flyspell mode:
+;; (Error: No word lists can be found for the language "zh_CN".)
+;;
+;; use aspell as ispell backend
+(setq-default ispell-program-name "aspell")  
+;; use American English as ispell default dictionary  
+(ispell-change-dictionary "american" t)
 
 (defun prelude-enable-flyspell ()
   "Enable command `flyspell-mode' if `prelude-flyspell' is not nil."
