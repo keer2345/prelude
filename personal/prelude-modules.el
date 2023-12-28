@@ -46,6 +46,8 @@
 (require 'personal-common-editor)
 (require 'personal-common-utils)
 
+(require 'prelude-company)
+
 
 (provide 'prelude-modules)
 ;;; prelude-modules.el ends here
