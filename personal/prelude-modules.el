@@ -45,6 +45,7 @@
 (require 'personal-common-ui)
 (require 'personal-common-editor)
 (require 'personal-common-utils)
+(require 'personal-common-dashboard)
 
 (require 'prelude-company)
 

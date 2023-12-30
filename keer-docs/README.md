@@ -4,6 +4,8 @@
 - [专业 Emacs 入门](https://zhuanlan.zhihu.com/p/385214753) 
 	- *[Note](notes/20231224001.md)*
 - [无知的菜狗](https://space.bilibili.com/1281376)
+- [youtube - Learning Emacs Lisp](https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7)
+- [youtube - Emacs Tutorial](https://www.youtube.com/watch?v=d6iY_1aMzeg&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n)
 
 ## 写作
 ### 写作的一些配置
