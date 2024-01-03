@@ -3,6 +3,7 @@
 	(("C-a" . mwim-beginning-of-code-or-line)
 	 ("C-e" . mwim-end-of-code-or-line)))
 
+;; https://stackoverflow.com/questions/26222076/emacs-delete-up-to-the-beginning-of-next-word-like-vim-dw
 (defun forward-kill-whitespace-or-word ()
   "If `point' is followed by whitespace kill that.
 Otherwise call `kill-word'"

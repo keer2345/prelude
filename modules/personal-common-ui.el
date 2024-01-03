@@ -11,5 +11,8 @@
 
 (use-package nerd-icons)
 
+;; fira code
+(use-package fira-code-mode
+  :config (global-fira-code-mode))
 
 (provide 'personal-common-ui)
