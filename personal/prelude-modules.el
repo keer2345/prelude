@@ -45,7 +45,9 @@
 (require 'personal-common-ui)
 (require 'personal-common-editor)
 (require 'personal-common-utils)
-(require 'personal-common-dashboard)
+
+(if (display-graphic-p)
+	(require 'personal-common-dashboard))
 
 (require 'prelude-vertico) ;; A powerful, yet simple, alternative to ivy
 (require 'prelude-company)

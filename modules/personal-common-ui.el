@@ -12,8 +12,9 @@
 (use-package nerd-icons)
 
 ;; fira code
-(use-package fira-code-mode
-  :config (global-fira-code-mode))
+(if (display-graphic-p)
+	(use-package fira-code-mode
+	  :config (global-fira-code-mode)))
 
 
 (if (display-graphic-p)
