@@ -6,6 +6,16 @@
 - [无知的菜狗](https://space.bilibili.com/1281376)
 - [youtube - Learning Emacs Lisp](https://www.youtube.com/watch?v=RQK_DaaX34Q&list=PLEoMzSkcN8oPQtn7FQEF3D7sroZbXuPZ7)
 - [youtube - Emacs Tutorial](https://www.youtube.com/watch?v=d6iY_1aMzeg&list=PLX2044Ew-UVVv31a0-Qn3dA6Sd_-NyA1n)
+- [Learning Emacs Lisp](https://systemcrafters.net/learning-emacs-lisp/)
+- [Protesilaos Stavrou's Emcas](https://www.youtube.com/@protesilaos/playlists)
+
+## 书籍
+- [ANSI Common Lisp](https://paulgraham.com/acl.html) 
+	- *[中文版](https://acl.readthedocs.io/en/latest/)*
+- [Practical Common Lisp](https://gigamonkeys.com/book/) 
+	- *[中文版](https://github.com/binghe/pcl-cn)*
+- [On Lisp](https://github.com/DalekBaldwin/on-lisp)
+	- *[中文版](https://github.com/huyubing/books-pdf/blob/master/%5BOn%20Lisp%5D%E4%B8%AD%E6%96%87%E5%AE%8C%E6%95%B4%E7%89%88.pdf)*
 
 ## 写作
 ### 写作的一些配置

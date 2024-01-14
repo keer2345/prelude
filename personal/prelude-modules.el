@@ -51,6 +51,9 @@
 
 (require 'prelude-vertico) ;; A powerful, yet simple, alternative to ivy
 (require 'prelude-company)
+(require 'prelude-emacs-lisp)
+
+(require 'prelude-lisp) ;; Common setup for Lisp-like languages
 
 
 (provide 'prelude-modules)

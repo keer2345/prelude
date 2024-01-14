@@ -1,8 +1,12 @@
 ;; 极简化（隐藏菜单栏）
 (setq prelude-minimalistic-ui t)
 
-;; 如果想在极简化下显示行号：
-;; (global-display-line-numbers-mode)
+(when prelude-minimalistic-ui
+  (scroll-bar-mode -1))
+
+;; 极简化下不显示行号：
+(unless prelude-minimalistic-ui
+ (global-display-line-numbers-mode))
 
 ;; relative line numbers
 (setq display-line-numbers-type 'relative)
