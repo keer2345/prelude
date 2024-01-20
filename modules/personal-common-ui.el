@@ -11,10 +11,13 @@
 
 (use-package nerd-icons)
 
-;; fira code mode
-;; (if (display-graphic-p)
-;; 	(use-package fira-code-mode
-;; 	  :config (global-fira-code-mode)))
+;; Disable line numbers for some modes
+;
+; (dolist (mode '(org-mode-hook
+; 								term-mode-hook
+; 								shell-mode-hook
+; 								eshell-mode-hook))
+; 	(add-hook mode (lambda () (display-line-numbers-mode 0))))
 
 
 (if (display-graphic-p)
@@ -24,5 +27,10 @@
 	))
 
 (set-face-attribute 'default nil :font "Fira Code Retina")
+
+(use-package doom-modeline
+  :init (doom-modeline-mode 1))
+
+
 
 (provide 'personal-common-ui)
