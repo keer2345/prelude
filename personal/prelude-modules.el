@@ -51,9 +51,21 @@
 
 (require 'prelude-vertico) ;; A powerful, yet simple, alternative to ivy
 (require 'prelude-company)
-(require 'prelude-emacs-lisp)
+;; (require 'prelude-key-chord) ;; Binds useful features to key combinations
 
+;;; Vim emulation
+;;
+;; Enable this module if you're fond of vim's keybindings.
+;; (require 'prelude-evil)
+
+;;; Org-mode (a legendary productivity tool that deserves its own category)
+;;
+;; Org-mode helps you keep TODO lists, notes and more.
+(require 'prelude-org)
+
+(require 'prelude-emacs-lisp)
 (require 'prelude-lisp) ;; Common setup for Lisp-like languages
+(require 'prelude-latex)
 
 
 (provide 'prelude-modules)

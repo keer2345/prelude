@@ -85,6 +85,17 @@
 (add-hook 'LaTeX-mode-hook (lambda ()
                              (run-hooks 'prelude-latex-mode-hook)))
 
+;; Chinese Support
+;;  org-mode 8.0
+(setq org-latex-pdf-process '("xelatex -interaction nonstopmode %f"
+                             "xelatex -interaction nonstopmode %f"))
+
+;; Chinese Support
+;; export cn character
+(setf org-latex-default-packages-alist
+     (remove '("AUTO" "inputenc" t) org-latex-default-packages-alist))
+
+
 (provide 'prelude-latex)
 
 ;;; prelude-latex.el ends here
