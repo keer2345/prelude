@@ -4,7 +4,7 @@
 	 ("C-e" . mwim-end-of-code-or-line)))
 
 ;; https://stackoverflow.com/questions/26222076/emacs-delete-up-to-the-beginning-of-next-word-like-vim-dw
-(defun forward-kill-whitespace-or-word ()
+(defun keer/forward-kill-whitespace-or-word ()
   "If `point' is followed by whitespace kill that.
 Otherwise call `kill-word'"
   (interactive)
@@ -13,12 +13,12 @@ Otherwise call `kill-word'"
         (re-search-forward "[^ \t\n]" nil t)
         (backward-char)
         (kill-region pos (point)))
-    (kill-word 1)))
-(global-set-key (kbd "M-d") 'forward-kill-whitespace-or-word)
+    ;(kill-word 1)))
+    (sp-kill-word 1)))
 
 (setq whitespace-line-column 120) ;; limit line length
 
-
 (global-set-key (kbd "C-z") 'undo)
+(global-set-key (kbd "M-d") 'keer/forward-kill-whitespace-or-word)
 
 (provide 'personal-common-editor)
