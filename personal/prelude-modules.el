@@ -62,11 +62,13 @@
 ;;
 ;; Org-mode helps you keep TODO lists, notes and more.
 (require 'prelude-org)
+(require 'personal-org)
 
 (require 'prelude-emacs-lisp)
 (require 'prelude-lisp) ;; Common setup for Lisp-like languages
 (require 'prelude-latex)
 
+(require 'personal-common-keybindings)
 
 (provide 'prelude-modules)
 ;;; prelude-modules.el ends here

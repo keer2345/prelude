@@ -43,6 +43,7 @@
 (setq org-log-done t)
 (setq org-log-into-drawer t)
 
+
 (defun prelude-org-mode-defaults ()
   (let ((oldmap (cdr (assoc 'prelude-mode minor-mode-map-alist)))
         (newmap (make-sparse-keymap)))
