@@ -65,7 +65,9 @@
 (require 'personal-lang-org)
 
 (require 'prelude-lisp) ;; Common setup for Lisp-like languages
-(require 'prelude-common-lisp)
+(require 'personal-lang-lisp)
+;; (require 'prelude-common-lisp)
+(require 'personal-lang-clisp)
 (require 'prelude-emacs-lisp)
 
 (require 'prelude-latex)
