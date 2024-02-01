@@ -11,4 +11,4 @@
 ;; Hide the markers so you just see bold text as BOLD-TEXT and not *BOLD-TEXT*
 (setq org-hide-emphasis-markers t)
 
-(provide 'personal-org)
+(provide 'personal-lang-org)
