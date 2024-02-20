@@ -66,8 +66,8 @@
 
 (require 'prelude-lisp) ;; Common setup for Lisp-like languages
 (require 'personal-lang-lisp)
-;; (require 'prelude-common-lisp)
-(require 'personal-lang-clisp)
+;(require 'prelude-common-lisp)	;; slime
+(require 'personal-lang-clisp)  ;; sly
 (require 'prelude-emacs-lisp)
 
 (require 'prelude-latex)
