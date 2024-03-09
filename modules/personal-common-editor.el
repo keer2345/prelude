@@ -21,4 +21,9 @@ Otherwise call `kill-word'"
 (global-set-key (kbd "C-z") 'undo)
 (global-set-key (kbd "M-d") 'keer/forward-kill-whitespace-or-word)
 
+(use-package hungry-delete
+  :bind (("M-<backspace>" . hungry-delete-backward)))
+
+(use-package drag-stuff)
+
 (provide 'personal-common-editor)

@@ -64,11 +64,6 @@
 (require 'use-package-ensure)
 (setq use-package-always-ensure t)
 
-(use-package benchmark-init
-  :config
-  ;; To disable collection of benchmark data after init is done.
-  (add-hook 'after-init-hook 'benchmark-init/deactivate))
-  
 
 (defvar prelude-packages
   '(ace-window
@@ -134,6 +129,12 @@ Missing packages are installed automatically."
 
 ;; run package installation
 (prelude-install-packages)
+
+(use-package benchmark-init
+  :config
+  ;; To disable collection of benchmark data after init is done.
+  (add-hook 'after-init-hook 'benchmark-init/deactivate))
+  
 
 (defun prelude-list-foreign-packages ()
   "Browse third-party packages not bundled with Prelude.
