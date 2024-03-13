@@ -127,6 +127,9 @@ Missing packages are installed automatically."
     ;; install the missing packages
     (prelude-require-packages prelude-packages)))
 
+(when (not package-archive-contents)
+  (package-refresh-contents))
+
 ;; run package installation
 (prelude-install-packages)
 
@@ -134,7 +137,7 @@ Missing packages are installed automatically."
   :config
   ;; To disable collection of benchmark data after init is done.
   (add-hook 'after-init-hook 'benchmark-init/deactivate))
-  
+
 
 (defun prelude-list-foreign-packages ()
   "Browse third-party packages not bundled with Prelude.
