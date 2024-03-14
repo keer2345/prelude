@@ -52,7 +52,7 @@
 (require 'prelude-vertico) ;; A powerful, yet simple, alternative to ivy
 (require 'prelude-company)
 
-;; (require 'personal-eglot) ;; Base setup for the Language Server Protocol
+(require 'personal-eglot) ;; Base setup for the Language Server Protocol
 
 ;; (require 'prelude-key-chord) ;; Binds useful features to key combinations
 
@@ -60,6 +60,8 @@
 ;;
 ;; Enable this module if you're fond of vim's keybindings.
 ;; (require 'prelude-evil)
+
+(require 'personal-common-keybindings)
 
 ;;; Org-mode (a legendary productivity tool that deserves its own category)
 ;;
@@ -75,7 +77,8 @@
 
 (require 'prelude-latex)
 
-(require 'personal-common-keybindings)
+(require 'personal-lang-python)
+
 
 (provide 'prelude-modules)
 ;;; prelude-modules.el ends here
