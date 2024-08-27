@@ -40,6 +40,7 @@
               ("C-<return>" . eglot-code-actions))
 	)
 
+(use-package consult-eglot)
 
 (provide 'personal-eglot)
 ;;; personal-eglot.el ends here

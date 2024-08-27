@@ -52,6 +52,7 @@
 (require 'prelude-vertico) ;; A powerful, yet simple, alternative to ivy
 (require 'prelude-company)
 
+(require 'personal-funcs)
 (require 'personal-eglot) ;; Base setup for the Language Server Protocol
 
 ;; (require 'prelude-key-chord) ;; Binds useful features to key combinations
@@ -74,6 +75,10 @@
 ;(require 'prelude-common-lisp)	;; slime
 (require 'personal-lang-clisp)  ;; sly
 (require 'prelude-emacs-lisp)
+
+(require 'prelude-js)	;; javascript
+(require 'prelude-ts)	;; typescript
+;(require 'personal-lang-ts)	;; typescript
 
 (require 'prelude-latex)
 
